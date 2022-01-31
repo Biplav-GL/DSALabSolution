@@ -46,10 +46,8 @@ public class longestPathOfBTree {
 
         ArrayList<Integer> output = longestPath(root);
         int n = output.size();
-        System.out.print("Longest Path ");
-        System.out.print(output.get(n - 1));
-        for(int i = n - 2; i >= 0; i--)
-        {
+        System.out.print("Longest Path " + output.get(n - 1));
+        for(int i = n - 2; i >= 0; i--) {
             System.out.print(" -> " + output.get(i));
         }
     }
