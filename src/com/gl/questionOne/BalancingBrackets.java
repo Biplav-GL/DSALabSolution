@@ -1,4 +1,4 @@
-package com.gl.questionOne.main;
+package com.gl.questionOne;
 import java.util.Stack;
 
 public class BalancingBrackets {
